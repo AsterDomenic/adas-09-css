@@ -1,0 +1,41 @@
+ATIVIDADE PRÁTICA - SITE DE AGROPECUÁRIA
+Desenvolva um site para uma agropecuária fictícia utilizando HTML e CSS.
+
+O site deverá conter 6 páginas:
+
+1. PÁGINA INICIAL 
+   Apresentar a agropecuária, seus principais produtos,
+   categorias e informações de destaque.
+
+1. SOBRE NÓS
+   Apresentar a história da empresa, sua missão, seus valores
+   e outras informações relevantes.
+
+1. PRODUTOS
+   Exibir um catálogo de produtos comercializados pela
+   agropecuária, contendo imagens, nomes, preços e descrições.
+
+1. DETALHES DO PRODUTO
+   Apresentar informações completas sobre um produto,
+   incluindo imagem, descrição, preço e características.
+
+1. PROMOÇÕES
+   Apresentar os produtos que estão em promoção,
+   destacando os preços originais e promocionais.
+
+1. CONTATO
+   Apresentar os dados de contato da empresa e um formulário
+   para que os clientes possam enviar mensagens.
+
+REQUISITOS GERAIS:
+
+- Criar um arquivo HTML para cada página.
+- Utilizar CSS para estilizar todas as páginas.
+- Criar um menu de navegação entre as páginas.
+- Manter um padrão visual em todo o site.
+- Utilizar imagens, cores e fontes adequadas ao tema.
+- Organizar os conteúdos de maneira clara e agradável.
+- Aplicar os conceitos de HTML e CSS estudados em aula.
+
+OBSERVAÇÃO:
+A agropecuária e suas informações poderão ser fictícias.

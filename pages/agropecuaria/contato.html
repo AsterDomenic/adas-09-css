@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Raízes do Campo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- IMAGEM: Logotipo da agropecuária -->
+
+        <h1>Agropecuária Raízes do Campo</h1>
+        <p>Cultivando confiança, fortalecendo o campo.</p>
+
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="promocao.html">Promoções</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Entre em Contato</h2>
+
+            <p>
+                Estamos à disposição para atender você!
+                Entre em contato para tirar dúvidas, consultar produtos
+                ou conhecer nossas ofertas.
+            </p>
+        </section>
+
+        <section>
+            <h2>Informações de Contato</h2>
+
+            <h3>Endereço</h3>
+            <p>Rua das Palmeiras, 150</p>
+            <p>Santa Helena do Vale - Santa Catarina</p>
+
+            <h3>Telefone</h3>
+            <p>(47) 3333-2020</p>
+
+            <h3>E-mail</h3>
+            <p>contato@raizesdocampo.com.br</p>
+
+            <h3>Horário de Funcionamento</h3>
+
+            <ul>
+                <li>Segunda a sexta: 08h às 18h.</li>
+                <li>Sábado: 08h às 12h.</li>
+                <li>Domingo: Fechado.</li>
+            </ul>
+
+            <!-- IMAGEM: Fotografia da fachada da agropecuária -->
+        </section>
+
+        <section>
+            <h2>Envie uma Mensagem</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Seus Dados</legend>
+
+                    <label for="nome">Nome completo:</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        minlength="3"
+                        maxlength="60"
+                        required
+                    >
+
+                    <br><br>
+
+                    <label for="email">E-mail:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+
+                    <br><br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        placeholder="(00) 00000-0000"
+                    >
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensagem</legend>
+
+                    <label for="assunto">Assunto:</label>
+
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="produtos">Dúvidas sobre produtos</option>
+                        <option value="promocoes">Promoções</option>
+                        <option value="atendimento">Atendimento</option>
+                        <option value="outros">Outros assuntos</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="mensagem">Sua mensagem:</label>
+
+                    <br>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="6"
+                        cols="40"
+                        minlength="10"
+                        maxlength="500"
+                        required
+                    ></textarea>
+
+                </fieldset>
+
+                <button type="submit">Enviar Mensagem</button>
+                <button type="reset">Limpar Formulário</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Agropecuária Raízes do Campo</h2>
+        <p>Telefone: (47) 3333-2020</p>
+        <p>Santa Helena do Vale - SC</p>
+        <p>&copy; 2026 Agropecuária Raízes do Campo.</p>
+    </footer>
+
+</body>
+</html>
